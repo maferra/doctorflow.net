@@ -7,4 +7,4 @@ git commit -S -m "Committed."
 git push
 
 rem start s3 sync
-call aws s3 sync public s3://doctorflow --delete
+call aws s3 sync public s3://doctorflownet --delete
