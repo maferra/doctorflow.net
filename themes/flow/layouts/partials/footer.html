@@ -1,0 +1,28 @@
+<footer class="pt-3">
+    <div class="container">
+
+        {{ if not .IsHome }}
+        <div class="row">
+            {{ range .Site.Sections.ByTitle.Reverse }}
+            <div class="col-md">
+                <h4>{{ .Title }}</h4>
+                <ul>
+                    {{ range .Pages.ByTitle }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <div class="row">
+            <div class="col-md">
+                <p class="text-center">&copy; 2019, 2020 Ricardo Anselmo de Castro</p>
+                <p class="text-center">Architect of the TBLS business improvement strategy.</p>
+            </div>
+        </div>
+    </div>
+</footer>

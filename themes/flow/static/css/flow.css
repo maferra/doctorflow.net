@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+
+html,
+body {
+    font-family: 'Spectral', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+    color: #d20000;
+}
+
+a:hover {
+    color: #d20000;
+}
+
+.btn-flow {
+    color: #ffffff;
+    background-color: #d20000;
+    border-color: #a80000;
+}
+
+.btn-flow:hover,
+.btn-flow:focus,
+.btn-flow:active,
+.btn-flow.active,
+.open>.dropdown-toggle.btn-flow {
+    color: #ffffff;
+    background-color: #9f0000;
+    border-color: #a80000;
+}
+
+.card-profile-picture {
+    max-width: 150px;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+}

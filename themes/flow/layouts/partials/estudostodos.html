@@ -1,0 +1,15 @@
+{{ if eq .Title "Casos De Estudo" }}
+
+{{ range $section, $value := .Site.Data.estudos }}
+
+<h2>{{ $section }}</h2>
+
+<ul>
+    {{ range sort $value "title" }}
+    <li>[{{ .filetype }}] <a href="/saber-mais/casos-de-estudo/{{ .filename }}">{{ .title }}</a></li>
+    {{ end }}
+</ul>
+
+{{ end }}
+
+{{ end }}

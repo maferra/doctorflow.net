@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            {{ if (isset .Params "title") }}
+            <h2>{{ .Title }}</h2>
+            {{ end }}
+
+            {{ if (isset .Params "description") }}
+            <p>{{ .Description }}</p>
+            {{ end }}
+        </div>
+        <div class="col-md-9">
+            {{ .Content }}
+
+            {{- partial "videos.html" . -}}
+            {{- partial "estudos.html" . -}}
+            {{- partial "equipa.html" . -}}
+            {{- partial "contacto.html" . -}}
+
+            {{- partial "estudostodos.html" . -}}
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,11 @@
+baseURL = "https://doctorflow.net/"
+languageCode = "pt-PT"
+title = "Dr. Flow"
+
+theme = "flow"
+canonifyURLs = "true"
+
+pluralizelisttitles = "false"
+
+verbose = true
+verboseLog = true
