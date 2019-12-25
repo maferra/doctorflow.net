@@ -3,7 +3,13 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <h2>{{ .Title }}</h2>
+            <h2>
+                {{ if eq .Title "Tbls"}}
+                {{ upper .Title }}
+                {{ else }}
+                {{ title (humanize .Title) }}
+                {{ end }}
+            </h2>
         </div>
         <div class="col-md-9">
             <div class="row row-cols-1 row-cols-md-2">

@@ -1,3 +1,5 @@
+{{ .Scratch.Set "sections" .Site.Data.sections.titles }}
+
 <footer class="pt-3">
     <div class="container">
 
@@ -5,7 +7,13 @@
         <div class="row">
             {{ range .Site.Sections.ByTitle.Reverse }}
             <div class="col-md">
-                <h4>{{ .Title }}</h4>
+                <h4>
+                    {{ if eq .Title "Tbls"}}
+                    {{ upper .Title }}
+                    {{ else }}
+                    {{ title (humanize .Title) }}
+                    {{ end }}
+                </h4>
                 <ul>
                     {{ range .Pages.ByTitle }}
                     <li>

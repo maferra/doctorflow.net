@@ -3,9 +3,9 @@ languageCode = "pt-PT"
 title = "Dr. Flow"
 
 theme = "flow"
-canonifyURLs = "true"
+canonifyURLs = true
 
-pluralizelisttitles = "false"
+pluralizelisttitles = false
 
 verbose = true
 verboseLog = true
