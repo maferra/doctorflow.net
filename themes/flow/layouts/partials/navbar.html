@@ -13,7 +13,13 @@
         <ul class="navbar-nav mr-auto">
             {{ range .Site.Sections.ByTitle.Reverse }}
             <li class="nav-item">
-                <a class="nav-link p-1" href="{{ .Permalink }}">{{ .Title }}</a>
+                <a class="nav-link p-1" href="{{ .Permalink }}">
+                    {{ if eq .Title "Tbls"}}
+                    {{ upper .Title }}
+                    {{ else }}
+                    {{ title (humanize .Title) }}
+                    {{ end }}
+                </a>
             </li>
             {{ end }}
 
