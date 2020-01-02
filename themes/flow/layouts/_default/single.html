@@ -10,6 +10,8 @@
             {{ if (isset .Params "description") }}
             <p>{{ .Description }}</p>
             {{ end }}
+
+            {{- partial "booklets.html" . -}}
         </div>
         <div class="col-md-9">
             {{ .Content }}

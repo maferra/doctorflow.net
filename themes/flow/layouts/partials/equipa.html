@@ -15,7 +15,13 @@
         </div>
         <div class="col-md-8">
             <div class="card-body p-1">
-                <h5 class="card-title">{{ .person }}</h5>
+                <h5 class="card-title">
+                    {{ if .link }}
+                    <a href="{{ .link }}">{{ .person }}</a>
+                    {{ else }}
+                    {{ .person }}
+                    {{ end }}
+                </h5>
                 <p class="card-text">{{ .profile }}</p>
                 <div class="list-group list-group-horizontal text-center">
                     <a href="mailto:{{ .email }}" class="list-group-item list-group-item-action list-group-item-light p-1 rounded-0">
