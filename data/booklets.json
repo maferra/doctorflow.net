@@ -5,6 +5,13 @@
         "title": "Brochura Blue Flow",
         "filetype": "PDF"
     }],
+    "Development Flow": [
+    {
+        "filename": "BookletDevelopmentFlow.pdf",
+        "title": "Brochura Development Flow",
+        "filetype": "PDF"
+    }],
+
     "Operations Flow": [
     {
         "filename": "BookletOperationsFlow.pdf",
@@ -27,6 +34,12 @@
     {
         "filename": "BookletEasyMoney.pdf",
         "title": "Brochura Easy Money",
+        "filetype": "PDF"
+    }],
+    "Workshop Theme": [
+    {
+        "filename": "BookletWorkshopTheme.pdf",
+        "title": "Brochura Workshop Theme",
         "filetype": "PDF"
     }]
 

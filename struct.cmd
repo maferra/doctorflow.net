@@ -12,6 +12,7 @@ hugo new value-flow\patient-flow\index.md
 hugo new value-flow\project-flow\index.md
 
 hugo new crisis\easy-money\index.md
+hugo new crisis\workshop-theme\index.md
 
 hugo new tbls\pensamento\index.md
 hugo new tbls\theory-of-constraints\index.md
