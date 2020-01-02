@@ -11,7 +11,17 @@
         "title": "Brochura Development Flow",
         "filetype": "PDF"
     }],
-
+    "Distribution Flow": [
+    {
+        "filename": "BookletDistributionFlow_I.pdf",
+        "title": "Brochura Development Flow - Indústria",
+        "filetype": "PDF"
+    },
+    {
+        "filename": "BookletDistributionFlow_R.pdf",
+        "title": "Brochura Development Flow - Retalho e Distribuição",
+        "filetype": "PDF"
+    }],
     "Operations Flow": [
     {
         "filename": "BookletOperationsFlow.pdf",
