@@ -11,14 +11,10 @@
 
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav mr-auto">
-            {{ range .Site.Sections.ByTitle.Reverse }}
+            {{ range .Site.Menus.main }}
             <li class="nav-item">
-                <a class="nav-link p-1" href="{{ .Permalink }}">
-                    {{ if eq .Title "Tbls"}}
-                    {{ upper .Title }}
-                    {{ else }}
-                    {{ title (humanize .Title) }}
-                    {{ end }}
+                <a class="nav-link p-1" href="{{ .URL }}">
+                    {{ .Title }}
                 </a>
             </li>
             {{ end }}

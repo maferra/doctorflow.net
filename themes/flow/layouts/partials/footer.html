@@ -1,21 +1,15 @@
-{{ .Scratch.Set "sections" .Site.Data.sections.titles }}
-
 <footer class="pt-3">
     <div class="container">
 
         {{ if not .IsHome }}
         <div class="row">
-            {{ range .Site.Sections.ByTitle.Reverse }}
+            {{ range .Site.Menus.main }}
             <div class="col-md">
                 <h4>
-                    {{ if eq .Title "Tbls"}}
-                    {{ upper .Title }}
-                    {{ else }}
-                    {{ title (humanize .Title) }}
-                    {{ end }}
+                    {{ .Title }}
                 </h4>
                 <ul>
-                    {{ range .Pages.ByTitle }}
+                    {{ range (where $.Site.RegularPages.ByTitle "Section" .Identifier) }}
                     <li>
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>

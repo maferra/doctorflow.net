@@ -9,3 +9,30 @@ pluralizelisttitles = false
 
 verbose = true
 verboseLog = true
+
+sectionPagesMenu = "main"
+
+[menu]
+	[[menu.main]]
+		identifier = "tbls"
+		title      = "TBLS"
+		url        = "/tbls/"
+		weight     = 10
+
+	[[menu.main]]
+		identifier = "value-flow"
+		title      = "Value Flow"
+		url        = "/value-flow/"
+		weight     = 20
+
+	[[menu.main]]
+		identifier = "crisis"
+		title      = "Crisis"
+		url        = "/crisis/"
+		weight     = 30
+
+	[[menu.main]]
+		identifier = "saber-mais"
+		title      = "Saber Mais"
+		url        = "/saber-mais/"
+		weight     = 40
