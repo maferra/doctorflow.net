@@ -12,12 +12,20 @@
             {{ end }}
 
             {{- partial "booklets.html" . -}}
+
+            {{ if eq .Section "tbls" }}
+            {{- partial "estudos.html" . -}}
+            {{ end }}
         </div>
         <div class="col-md-9">
             {{ .Content }}
 
             {{- partial "videos.html" . -}}
+
+            {{ if ne .Section "tbls" }}
             {{- partial "estudos.html" . -}}
+            {{ end }}
+
             {{- partial "equipa.html" . -}}
             {{- partial "contacto.html" . -}}
 

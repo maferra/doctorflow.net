@@ -17,6 +17,7 @@ hugo new crisis\workshop-theme\index.md
 hugo new tbls\pensamento\index.md
 hugo new tbls\theory-of-constraints\index.md
 hugo new tbls\throughput-accounting\index.md
+hugo new tbls\lean-six-sigma\index.md
 
 hugo new saber-mais\casos-de-estudo\index.md
 hugo new saber-mais\contacto\index.md
