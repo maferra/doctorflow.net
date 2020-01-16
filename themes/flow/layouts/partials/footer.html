@@ -9,7 +9,9 @@
                     {{ .Title }}
                 </h4>
                 <ul>
-                    {{ range (where $.Site.RegularPages.ByTitle "Section" .Identifier) }}
+                    {{ $sorder := cond (eq .Title "TBLS") "Weight" "Title" }}
+
+                    {{ range sort (where $.Site.RegularPages "Section" .Identifier) $sorder }}
                     <li>
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>
@@ -22,7 +24,7 @@
 
         <div class="row">
             <div class="col-md">
-                <p class="text-center">&copy; 2019, 2020 Ricardo Anselmo de Castro</p>
+                <p class="text-center mb-1">&copy; 2019, 2020 Ricardo Anselmo de Castro</p>
                 <p class="text-center">Architect of the TBLS business improvement strategy.</p>
             </div>
         </div>

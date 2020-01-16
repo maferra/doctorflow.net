@@ -6,16 +6,17 @@
 
 <h2>Casos de estudo</h2>
 
-<div class="list-group list-group-flush mb-3">
+<ul>
     {{ range sort $value "title" }}
 
-    {{ $file := path.Join "/content/saber-mais/casos-de-estudo/" .filename }}
+    {{ $file := path.Join "/static/casos-de-estudo/" .filename }}
     {{ $size := (os.Stat $file).Size }}
     {{ $szkb := div $size 1000 }}
 
-    <a href="/saber-mais/casos-de-estudo/{{ .filename }}" class="list-group-item list-group-item-action border-0 px-1"><span class="text-muted">[{{ .filetype }}]</span> {{ .title }}</a>
+    <li class="mb-2"><a href="/casos-de-estudo/{{ .filename }}">{{ .title }}</a></li>
+
     {{ end }}
-</div>
+</ul>
 
 {{ end }}
 

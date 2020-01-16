@@ -1,10 +1,4 @@
 {
-    "Lean": [
-    {
-        "filename": "p000.pdf",
-        "title": "1 cliente é 1 cliente",
-        "filetype": "PDF"
-    }],
     "Pensamento": [
     {
         "filename": "p002.pdf",
@@ -61,7 +55,12 @@
         "title": "Pensamento TBLS",
         "filetype": "PDF"
     }],
-    "Six Sigma": [
+    "Lean Six Sigma": [
+    {
+        "filename": "p000.pdf",
+        "title": "1 cliente é 1 cliente",
+        "filetype": "PDF"
+    },
     {
         "filename": "p003.pdf",
         "title": "A nata em problem-solving",

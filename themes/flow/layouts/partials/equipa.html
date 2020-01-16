@@ -22,7 +22,7 @@
                     {{ .person }}
                     {{ end }}
                 </h5>
-                <p class="card-text">{{ .profile }}</p>
+                <p class="card-text">{{ .profile | safeHTML }} </p>
                 <div class="list-group list-group-horizontal text-center">
                     <a href="mailto:{{ .email }}" class="list-group-item list-group-item-action list-group-item-light p-1 rounded-0">
                         <svg width="28" height="32" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

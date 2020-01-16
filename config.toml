@@ -32,7 +32,7 @@ sectionPagesMenu = "main"
 		weight     = 30
 
 	[[menu.main]]
-		identifier = "saber-mais"
-		title      = "Saber Mais"
-		url        = "/saber-mais/"
+		identifier = "contacto"
+		title      = "Contacto"
+		url        = "/contacto/"
 		weight     = 40

@@ -1,0 +1,23 @@
+{{ $ptitle := .Title }}
+
+{{ range $section, $value := .Site.Data.reais }}
+
+{{ if eq $section $ptitle }}
+
+<h2>Casos reais</h2>
+
+<ul>
+    {{ range sort $value "title" }}
+
+    {{ $file := path.Join "/static/casos-reais/" .filename }}
+    {{ $size := (os.Stat $file).Size }}
+    {{ $szkb := div $size 1000 }}
+
+    <li class="mb-2"><a href="/casos-reais/{{ .filename }}">{{ .title }}</a></li>
+
+    {{ end }}
+</ul>
+
+{{ end }}
+
+{{ end }}
