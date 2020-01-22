@@ -32,6 +32,47 @@
         "title": "DistributionFlow I",
         "description": "Como aumentar a rotação de inventário e o lucro líquido na distribuição e retalho?"
     }],
+    "Lean Six Sigma": [
+    {
+        "id": "VUZjX83o0ds",
+        "title": "Lean Six Sigma Analyse",
+        "description": "O que precisamos ter em consideração na fase Analyse, de um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "Rd0jkXQ8HmY",
+        "title": "Lean Six Sigma Define",
+        "description": "O que precisamos ter em consideração na fase Define, de um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "4b3pcYLqZoE",
+        "title": "Lean Six Sigma Full-Kit",
+        "description": "Em que momento a Lean Six Sigma deve entrar numa empresa (colocando em perspetiva as soluções Value Flow)? O que deve ser feito e o que não deve ser feito, antes de se libertar um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "Mnl-2uL0y3U",
+        "title": "Lean Six Sigma Measure",
+        "description": "O que precisamos ter em consideração na fase Measure, de um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "IO7TYaKiijA",
+        "title": "Lean Six Sigma, Define - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Define de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "KuxdD0rUf34",
+        "title": "Lean Six Sigma, Full-Kit - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como preparar um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "SVUhelJzfFI",
+        "title": "Lean Six Sigma, Measure - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Measure de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "UG7fRXExOJA",
+        "title": "Lets Make a Deal",
+        "description": "Qual o processo de decisão que usamos nas empresas?"
+    }],
     "Operations Flow": [
     {
         "id": "4aZ3662sW_Q",
@@ -96,43 +137,7 @@
         "title": "ProjectFlow I",
         "description": "Qual é sempre a primeira ação a realizar numa empresa que trabalha sob um ambiente de multiprojetos?"
     }],
-    "Lean Six Sigma": [
-    {
-        "id": "4b3pcYLqZoE",
-        "title": "Lean Six Sigma, Full-Kit - Case Studies",
-        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como preparar um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
-    },
-    {
-        "id": "4b3pcYLqZoE",
-        "title": "Lean Six Sigma Full-Kit",
-        "description": "Em que momento a Lean Six Sigma deve entrar numa empresa (colocando em perspetiva as soluções Value Flow)?"
-    },
-    {
-        "id": "UG7fRXExOJA",
-        "title": "Let's Make a Deal",
-        "description": "Qual o processo de decisão que usamos nas empresas?"
-    }],
     "Theory of Constraints": [
-    {
-        "id": "Q5r-l3ydyPY",
-        "title": "TOC 0",
-        "description": "Homenagem a Eli Goldratt - nos ombros de um gigante."
-    },
-    {
-        "id": "W_4wySjpae0",
-        "title": "TOC I",
-        "description": "Homenagem a Eli Goldratt - nos ombros de um gigante. Qual deve ser o sistema de medição de uma empresa?"
-    },
-    {
-        "id": "82I15ST621Q",
-        "title": "TOC II",
-        "description": "A 'nata' da Teoria das Restrições, em pouco mais de 5 minutos."
-    },
-    {
-        "id": "VCCGEzEyRKg",
-        "title": "Xadrez",
-        "description": "Qual o impacto de não se olhar SEMPRE para o todo? - uma analogia poderosa."
-    },
     {
         "id": "NZ-PKC8B6ak",
         "title": "Throughput Accounting 0",
@@ -142,5 +147,25 @@
         "id": "j05TrYo0Lgw",
         "title": "Throughput Accounting I",
         "description": "Um exemplo elucidativo de como devemos abandonar de vez, qualquer modelo de custeio."
+    },
+    {
+        "id": "Q5r-l3ydyPY",
+        "title": "TOC 0",
+        "description": "Homenagem a Eli Goldratt - nos ombros de um gigante."
+    },
+    {
+        "id": "W_4wySjpae0",
+        "title": "TOC I",
+        "description": "Homenagem a Eli Goldratt - nos ombros de um gigante."
+    },
+    {
+        "id": "82I15ST621Q",
+        "title": "TOC II",
+        "description": "A nata da Teoria das Restrições, em pouco mais de 5 minutos."
+    },
+    {
+        "id": "VCCGEzEyRKg",
+        "title": "Xadrez",
+        "description": "Qual o impacto de não se olhar SEMPRE para o todo?"
     }]
 }
