@@ -72,6 +72,36 @@
         "id": "UG7fRXExOJA",
         "title": "Lets Make a Deal",
         "description": "Qual o processo de decisão que usamos nas empresas?"
+    },
+    {
+        "id": "Uvz05fhPmNw",
+        "title": "Lean Six Sigma, Analyse - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Analyse de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "02EfGCpxFHI",
+        "title": "Lean Six Sigma - SIPOC",
+        "description": "Para que serve o diagrama de alto-nível SIPOC e como construí-lo?"
+    },
+    {
+        "id": "70NubDUnWyA",
+        "title": "Lean Six Sigma - Kano",
+        "description": "Para que serve o questionário de Kano e como construí-lo?"
+    },
+    {
+        "id": "-RLe1Yut6Z0",
+        "title": "Lean Six Sigma - 5Whys",
+        "description": "Para que serve a ferramenta dos 5 porquês e como construí-la?"
+    },
+    {
+        "id": "PwX6ufyRAZc",
+        "title": "Lean Six Sigma Improve",
+        "description": "O que precisamos ter em consideração na fase Improve, de um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "UG7fRXExOJA",
+        "title": "Lean Six Sigma, Improve - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Improve de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
     }],
     "Operations Flow": [
     {
@@ -125,6 +155,11 @@
         "id": "JDJbVrdWQvs",
         "title": "Resistência à Mudança",
         "description": "Existe resistência à mudança ou não passa apenas de uma perceção?"
+    },
+    {
+        "id": "WevKpK9CuH",
+        "title": "A TBLS em 2 minutos.",
+        "description": "A unificação de 4 estratégias em uma só: TOC, BOS, Lean, Six Sigma."
     }],
     "Project Flow": [
     {
