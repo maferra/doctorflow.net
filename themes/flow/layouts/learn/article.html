@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+{{- partial "article_prev_next.html" . -}}
+
+<h2>Índice</h2>
+
+{{ .TableOfContents }}
+
+{{ .Content }}
+
+{{- partial "article_references.html" . -}}
+{{- partial "article_authors.html" . -}}
+
+{{ end }}

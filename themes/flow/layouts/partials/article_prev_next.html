@@ -1,0 +1,53 @@
+{{ $cp := .Page }}
+{{ $pp := .Parent.Pages.ByTitle }}
+
+{{ range $index, $value := $pp }}
+
+{{ if eq $value $cp }}
+
+{{ $idxn := cond (eq (add $index 1) (len $pp)) 0 (add $index 1) }}
+{{ $idxp := cond (eq $index 0) (sub (len $pp) 1) (sub $index 1) }}
+
+{{ .Scratch.Set "next" (index $pp $idxn) }}
+{{ .Scratch.Set "prev" (index $pp $idxp) }}
+
+{{ end }}
+
+{{ end }}
+
+{{ $p := .Scratch.Get "prev" }}
+{{ $n := .Scratch.Get "next" }}
+
+<div class="card-deck mb-3">
+    <div class="card rounded-0">
+        <div class="card-header">
+            Artigo anterior
+        </div>
+        <div class="card-body p-1">
+            <h5 class="card-title">
+                <a href="{{ $p.Permalink }}">{{ $p.Page.Title }}</a>
+            </h5>
+            <p class="card-text">{{ $p.Description }}</p>
+        </div>
+        <div class="card-footer p-1">
+            {{- partial "taxonomy_categories.html" $p -}}
+            {{- partial "taxonomy_tags.html" $p -}}
+        </div>
+    </div>
+
+    <div class="card rounded-0">
+        <div class="card-header">
+            Artigo seguinte
+        </div>
+        <div class="card-body p-1">
+            <h5 class="card-title">
+                <a href="{{ $n.Permalink }}">{{ $n.Page.Title }}</a>
+            </h5>
+            <p class="card-text">{{ $n.Description }}</p>
+        </div>
+        <div class="card-footer p-1">
+            {{- partial "taxonomy_categories.html" $n -}}
+            {{- partial "taxonomy_tags.html" $n -}}
+        </div>
+    </div>
+</div>

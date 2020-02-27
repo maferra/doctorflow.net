@@ -1,0 +1,10 @@
+{{ $url := index $.Page.Params.images (.Get 0) }}
+{{ $idx := add (.Get 0) 1 }}
+{{ $caption := .Get 1 }}
+
+<div class="text-center">
+    <figure class="figure">
+        <img src="{{ $url }}" class="figure-img img-fluid rounded" alt="{{ $caption }}">
+        <figcaption class="figure-caption">Figura. {{ $idx }}. {{ $caption }}</figcaption>
+    </figure>
+</div>

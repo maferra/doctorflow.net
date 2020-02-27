@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ $authors := (slice "racastro" "mtbarreiras" "maferra")}}
+
+{{ range $authors }}
+
+{{ with $.Site.GetPage (printf "/authors/%s" .) }}
+
+<div class="card rounded-0 mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="text-center">
+                <img src="{{ .Params.picture }}" class="card-img rounded-circle card-profile-picture" alt="Photo of {{ .Title }}">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body p-1">
+                <h5 class="card-title">{{ .Title }}</h5>
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
+{{ end }}
+{{ end }}

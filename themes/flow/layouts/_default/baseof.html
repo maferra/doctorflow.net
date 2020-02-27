@@ -3,14 +3,54 @@
 {{- partial "head.html" . -}}
 
 <body>
+    {{ if .IsHome }}
+    <main id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </div>
+        </div>
+    </main>
+    {{ else }}
+
     {{- partial "header.html" . -}}
     <main id="content">
-        {{- block "main" . }}{{- end }}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>{{ .Title }}</h1>
+
+                    {{ with .Description }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+
+                    {{- partial "taxonomy_categories.html" . -}}
+                    {{- partial "taxonomy_tags.html" . -}}
+                </div>
+                <div class="col-md-9">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </div>
+        </div>
     </main>
     {{- partial "footer.html" . -}}
 
-    <script src="//code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    {{ end }}
+
+    <div class="text-center mt-3">
+        <div>{{ .Site.Copyright }}</div>
+        <div>Architect of the TBLS business improvement strategy.</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+    {{ if eq .Layout "article" }}
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    {{ end }}
 </body>
 
 </html>

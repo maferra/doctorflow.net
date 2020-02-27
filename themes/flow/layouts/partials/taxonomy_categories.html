@@ -1,0 +1,15 @@
+{{ with .Params.categories }}
+
+{{ range $tag := . }}
+{{ range $taxonomyname, $taxonomy := $.Site.Taxonomies.categories }}
+
+{{ if eq $taxonomyname $tag }}
+<a class="btn btn-sm btn-light mb-1 p-1 rounded-0" href="{{ .Page.Permalink }}" role="button">
+    {{ .Page.Title }} &bullet; {{ .Count }}
+</a>
+{{ end }}
+
+{{ end }}
+{{ end }}
+
+{{ end }}

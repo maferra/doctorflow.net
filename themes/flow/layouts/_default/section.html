@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="row row-cols-1 row-cols-md-2">
+    {{ range .Pages.GroupBy "Weight" }}
+    {{ range .Pages.ByTitle }}
+    <div class="col mb-3">
+        <div class="card rounded-0 h-100">
+            <div class="card-body">
+                <h2 class="card-title">{{ .Title }}</h2>
+                <p class="card-text">{{ .Description }}</p>
+            </div>
+            <div class="card-footer p-1">
+                <a href="{{ .Permalink }}" class="btn btn-ford rounded-0 stretched-link">Saber mais</a>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+
+{{ end }}

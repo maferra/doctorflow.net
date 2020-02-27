@@ -2,204 +2,249 @@
     "Blue Flow": [
     {
         "id": "tPl3Z5pGNrQ",
+        "publishedAt": 20190925,
         "title": "BlueFlow 0",
         "description": "O que fazer num mercado já saturado?"
     },
     {
         "id": "GAJLy6W3Hkc",
+        "publishedAt": 20190927,
         "title": "BlueFlow I",
         "description": "Como implementar uma estratégia oceano azul de forma estruturada?"
     }],
     "Development Flow": [
     {
-        "id": "D3mlY5QoO8M",
-        "title": "DevelopmentFlow 0",
-        "description": "Qual o conflito e como resolvê-lo em ambientes ultra-desafiantes, como é o caso no desenvolvimento de novos produtos?"
-    },
-    {
         "id": "VQbWd6E6dNA",
+        "publishedAt": 20190906,
         "title": "DevelopmentFlow I",
         "description": "Como deve ser o arranque de uma iniciativa da solução Development Flow?"
+    },
+    {
+        "id": "D3mlY5QoO8M",
+        "publishedAt": 20190906,
+        "title": "DevelopmentFlow 0",
+        "description": "Qual o conflito e como resolvê-lo em ambientes ultra-desafiantes, como é o caso no desenvolvimento de novos produtos?"
     }],
     "Distribution Flow": [
     {
         "id": "5mC4MsAZAzI",
+        "publishedAt": 20190911,
         "title": "DistributionFlow 0",
         "description": "Qual o impacto dos stockouts no lucro líquido de uma loja ou canal de distribuição?"
     },
     {
         "id": "As3Y15whUvg",
+        "publishedAt": 20190912,
         "title": "DistributionFlow I",
         "description": "Como aumentar a rotação de inventário e o lucro líquido na distribuição e retalho?"
     }],
     "Lean Six Sigma": [
     {
-        "id": "VUZjX83o0ds",
-        "title": "Lean Six Sigma Analyse",
-        "description": "O que precisamos ter em consideração na fase Analyse, de um projeto de Lean Six Sigma?"
-    },
-    {
-        "id": "Rd0jkXQ8HmY",
-        "title": "Lean Six Sigma Define",
-        "description": "O que precisamos ter em consideração na fase Define, de um projeto de Lean Six Sigma?"
-    },
-    {
-        "id": "4b3pcYLqZoE",
-        "title": "Lean Six Sigma Full-Kit",
-        "description": "Em que momento a Lean Six Sigma deve entrar numa empresa (colocando em perspetiva as soluções Value Flow)? O que deve ser feito e o que não deve ser feito, antes de se libertar um projeto de Lean Six Sigma?"
-    },
-    {
-        "id": "Mnl-2uL0y3U",
-        "title": "Lean Six Sigma Measure",
-        "description": "O que precisamos ter em consideração na fase Measure, de um projeto de Lean Six Sigma?"
-    },
-    {
-        "id": "IO7TYaKiijA",
-        "title": "Lean Six Sigma, Define - Case Studies",
-        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Define de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
-    },
-    {
-        "id": "KuxdD0rUf34",
-        "title": "Lean Six Sigma, Full-Kit - Case Studies",
-        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como preparar um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
-    },
-    {
-        "id": "SVUhelJzfFI",
-        "title": "Lean Six Sigma, Measure - Case Studies",
-        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Measure de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
-    },
-    {
         "id": "UG7fRXExOJA",
+        "publishedAt": 20191120,
         "title": "Lets Make a Deal",
         "description": "Qual o processo de decisão que usamos nas empresas?"
     },
     {
+        "id": "4b3pcYLqZoE",
+        "publishedAt": 20191230,
+        "title": "Lean Six Sigma Full-Kit",
+        "description": "Em que momento a Lean Six Sigma deve entrar numa empresa (colocando em perspetiva as soluções Value Flow)? O que deve ser feito e o que não deve ser feito, antes de se libertar um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "KuxdD0rUf34",
+        "publishedAt": 20200104,
+        "title": "Lean Six Sigma, Full-Kit - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como preparar um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "Rd0jkXQ8HmY",
+        "publishedAt": 20200108,
+        "title": "Lean Six Sigma Define",
+        "description": "O que precisamos ter em consideração na fase Define, de um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "IO7TYaKiijA",
+        "publishedAt": 20200110,
+        "title": "Lean Six Sigma, Define - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Define de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "Mnl-2uL0y3U",
+        "publishedAt": 20200113,
+        "title": "Lean Six Sigma Measure",
+        "description": "O que precisamos ter em consideração na fase Measure, de um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "SVUhelJzfFI",
+        "publishedAt": 20200116,
+        "title": "Lean Six Sigma, Measure - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Measure de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "VUZjX83o0ds",
+        "publishedAt": 20200119,
+        "title": "Lean Six Sigma Analyse",
+        "description": "O que precisamos ter em consideração na fase Analyse, de um projeto de Lean Six Sigma?"
+    },
+    {
         "id": "Uvz05fhPmNw",
+        "publishedAt": 20200126,
         "title": "Lean Six Sigma, Analyse - Case Studies",
         "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Analyse de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
     },
     {
         "id": "02EfGCpxFHI",
+        "publishedAt": 20200130,
         "title": "Lean Six Sigma - SIPOC",
         "description": "Para que serve o diagrama de alto-nível SIPOC e como construí-lo?"
     },
     {
         "id": "70NubDUnWyA",
+        "publishedAt": 20200204,
         "title": "Lean Six Sigma - Kano",
         "description": "Para que serve o questionário de Kano e como construí-lo?"
     },
     {
         "id": "-RLe1Yut6Z0",
+        "publishedAt": 20200208,
+        "title": "Lean Six Sigma - Checklist",
+        "description": "Para que serve uma checklist e como construí-la?"
+    },
+    {
+        "id": "IEE1PbEgQco",
+        "publishedAt": 20200212,
         "title": "Lean Six Sigma - 5Whys",
         "description": "Para que serve a ferramenta dos 5 porquês e como construí-la?"
     },
     {
         "id": "PwX6ufyRAZc",
+        "publishedAt": 20200218,
         "title": "Lean Six Sigma Improve",
         "description": "O que precisamos ter em consideração na fase Improve, de um projeto de Lean Six Sigma?"
     },
     {
-        "id": "UG7fRXExOJA",
+        "id": "pz5Hch2BFn0",
+        "publishedAt": 20200224,
         "title": "Lean Six Sigma, Improve - Case Studies",
         "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Improve de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
     }],
     "Operations Flow": [
     {
         "id": "4aZ3662sW_Q",
+        "publishedAt": 20190913,
         "title": "ADN Operações 0",
         "description": "Qual o segredo para se gerir bem qualquer operação (serviços ou indústria)?"
     },
     {
         "id": "9Vh5FNg3ZQM",
+        "publishedAt": 20190914,
         "title": "ADN Operações I",
         "description": "O que estamos a fazer de errado na gestão das operações? Uma simulação convincente!"
     },
     {
         "id": "ITxiQSwzcA8",
+        "publishedAt": 20190915,
         "title": "OperationsFlow 0",
         "description": "Como desbloquear as operações para níveis de desempenho muito superiores?"
     },
     {
         "id": "Ql1nXo_eR5Y",
+        "publishedAt": 20190917,
         "title": "OperationsFlow I",
         "description": "O OperationsFlow não é só operações, mas também é Marketing e Vendas."
     }],
     "Patient Flow": [
     {
-        "id": "WPzcS6qrCPc",
-        "title": "PatientFlow 0",
-        "description": "Qual é e como responder ao conflito inerente na área da saúde?"
-    },
-    {
         "id": "-ECnu5YnEsw",
+        "publishedAt": 20190905,
         "title": "PatientFlow I",
         "description": "Como melhorar o sistema nacional de saúde, sem recorrer a investimento?"
+    },
+    {
+        "id": "WPzcS6qrCPc",
+        "publishedAt": 20190906,
+        "title": "PatientFlow 0",
+        "description": "Qual é e como responder ao conflito inerente na área da saúde?"
     }],
     "Pensamento": [
     {
         "id": "wE67_pIGNSs",
+        "publishedAt": 20190908,
         "title": "Pensamento TBLS 0",
         "description": "O que está na origem das soluções ValueFlow?"
     },
     {
         "id": "uon8L5wAoJk",
+        "publishedAt": 20190909,
         "title": "Pensamento TBLS I",
         "description": "Continuação do vídeo TBLS 0."
     },
     {
         "id": "gBxFC_FFljc",
+        "publishedAt": 20190910,
         "title": "Pensamento TBLS II",
         "description": "Continuação do vídeo TBLS I."
     },
     {
         "id": "JDJbVrdWQvs",
+        "publishedAt": 20190912,
         "title": "Resistência à Mudança",
         "description": "Existe resistência à mudança ou não passa apenas de uma perceção?"
     },
     {
-        "id": "WevKpK9CuH",
+        "id": "WevKpK9CuHg",
+        "publishedAt": 20200122,
         "title": "A TBLS em 2 minutos.",
         "description": "A unificação de 4 estratégias em uma só: TOC, BOS, Lean, Six Sigma."
     }],
     "Project Flow": [
     {
         "id": "8BDf4XRdKzc",
+        "publishedAt": 20191007,
         "title": "ProjectFlow 0",
         "description": "O que está a impedir as empresas de realizarem projetos mais rapidamente (e com isso fazer mais dinheiro)?"
     },
     {
         "id": "zDaOTFC804k",
+        "publishedAt": 20191009,
         "title": "ProjectFlow I",
         "description": "Qual é sempre a primeira ação a realizar numa empresa que trabalha sob um ambiente de multiprojetos?"
     }],
     "Theory of Constraints": [
     {
-        "id": "NZ-PKC8B6ak",
-        "title": "Throughput Accounting 0",
-        "description": "Por que razão devemos abandonar de vez os modelos de custeio?"
-    },
-    {
-        "id": "j05TrYo0Lgw",
-        "title": "Throughput Accounting I",
-        "description": "Um exemplo elucidativo de como devemos abandonar de vez, qualquer modelo de custeio."
-    },
-    {
         "id": "Q5r-l3ydyPY",
+        "publishedAt": 20190918,
         "title": "TOC 0",
         "description": "Homenagem a Eli Goldratt - nos ombros de um gigante."
     },
     {
         "id": "W_4wySjpae0",
+        "publishedAt": 20190919,
         "title": "TOC I",
         "description": "Homenagem a Eli Goldratt - nos ombros de um gigante."
     },
     {
         "id": "82I15ST621Q",
+        "publishedAt": 20190920,
         "title": "TOC II",
         "description": "A nata da Teoria das Restrições, em pouco mais de 5 minutos."
     },
     {
+        "id": "NZ-PKC8B6ak",
+        "publishedAt": 20190921,
+        "title": "Throughput Accounting 0",
+        "description": "Por que razão devemos abandonar de vez os modelos de custeio?"
+    },
+    {
+        "id": "j05TrYo0Lgw",
+        "publishedAt": 20190923,
+        "title": "Throughput Accounting I",
+        "description": "Um exemplo elucidativo de como devemos abandonar de vez, qualquer modelo de custeio."
+    },
+    {
         "id": "VCCGEzEyRKg",
+        "publishedAt": 20191107,
         "title": "Xadrez",
         "description": "Qual o impacto de não se olhar SEMPRE para o todo?"
     }]

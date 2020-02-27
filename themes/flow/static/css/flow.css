@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=block');
 
 html,
 body {
@@ -9,6 +9,12 @@ iframe {
     border: none;
 }
 
+.card-profile-picture {
+    max-width: 150px;
+}
+
+/* #d20000 Ford Bright Red */
+
 a {
     color: #d20000;
 }
@@ -17,59 +23,158 @@ a:hover {
     color: #d20000;
 }
 
-.btn-flow {
-    color: #ffffff;
+.alert-ford {
+    color: #570000;
+    background-color: #ff9f9f;
+    border-color: #ff8a8a;
+}
+
+.alert-ford hr {
+    border-top-color: #ff7171;
+}
+
+.alert-ford .alert-link {
+    color: #240000;
+}
+
+.badge-ford {
+    color: #fff;
     background-color: #d20000;
-    border-color: #a80000;
 }
 
-.btn-flow:hover,
-.btn-flow:focus,
-.btn-flow:active,
-.btn-flow.active,
-.open>.dropdown-toggle.btn-flow {
-    color: #ffffff;
+.badge-ford[href]:hover,
+.badge-ford[href]:focus {
+    color: #fff;
     background-color: #9f0000;
-    border-color: #a80000;
 }
 
-.card-profile-picture {
-    max-width: 150px;
+.bg-ford {
+    background-color: #d20000 !important;
 }
 
-@media (min-width: 576px) {
-    .card-columns {
-        column-count: 1;
-    }
+a.bg-ford:hover,
+a.bg-ford:focus,
+button.bg-ford:hover,
+button.bg-ford:focus {
+    background-color: #9f0000 !important;
 }
 
-@media (min-width: 768px) {
-    .card-columns {
-        column-count: 1;
-    }
+.border-ford {
+    border-color: #d20000 !important;
 }
 
-@media (min-width: 992px) {
-    .card-columns {
-        column-count: 2;
-    }
+.btn-ford {
+    color: #fff;
+    background-color: #d20000;
+    border-color: #d20000;
 }
 
-@media (min-width: 1200px) {
-    .card-columns {
-        column-count: 3;
-    }
+.btn-ford:hover {
+    color: #fff;
+    background-color: #ae0000;
+    border-color: #9f0000;
 }
 
-.bd-callout {
-    padding: 1.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    border: 1px solid #eee;
-    border-left-width: .25rem;
-    border-radius: .25rem;
+.btn-ford:focus,
+.btn-ford.focus {
+    box-shadow: 0 0 0 0.2rem rgba(210, 0, 0, 0.5);
 }
 
-.bd-callout-orange {
-    border-left-color: #cccccc;
+.btn-ford.disabled,
+.btn-ford:disabled {
+    color: #fff;
+    background-color: #d20000;
+    border-color: #d20000;
+}
+
+.btn-ford:not(:disabled):not(.disabled):active,
+.btn-ford:not(:disabled):not(.disabled).active,
+.show>.btn-ford.dropdown-toggle {
+    color: #fff;
+    background-color: #9f0000;
+    border-color: #8f0000;
+}
+
+.btn-ford:not(:disabled):not(.disabled):active:focus,
+.btn-ford:not(:disabled):not(.disabled).active:focus,
+.show>.btn-ford.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(210, 0, 0, 0.5);
+}
+
+.btn-outline-ford {
+    color: #d20000;
+    background-color: transparent;
+    border-color: #d20000;
+}
+
+.btn-outline-ford:hover {
+    color: #fff;
+    background-color: #d20000;
+    border-color: #d20000;
+}
+
+.btn-outline-ford:focus,
+.btn-outline-ford.focus {
+    box-shadow: 0 0 0 0.2rem rgba(210, 0, 0, 0.5);
+}
+
+.btn-outline-ford.disabled,
+.btn-outline-ford:disabled {
+    color: #d20000;
+    background-color: transparent;
+}
+
+.btn-outline-ford:not(:disabled):not(.disabled):active,
+.btn-outline-ford:not(:disabled):not(.disabled).active,
+.show>.btn-outline-ford.dropdown-toggle {
+    color: #fff;
+    background-color: #d20000;
+    border-color: #d20000;
+}
+
+.btn-outline-ford:not(:disabled):not(.disabled):active:focus,
+.btn-outline-ford:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-ford.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(210, 0, 0, 0.5);
+}
+
+.list-group-item-ford {
+    color: #570000;
+    background-color: #ff8a8a;
+}
+
+.list-group-item-ford.list-group-item-action:hover,
+.list-group-item-ford.list-group-item-action:focus {
+    color: #570000;
+    background-color: #ff7171;
+}
+
+.list-group-item-ford.list-group-item-action.active {
+    color: #fff;
+    background-color: #570000;
+    border-color: #570000;
+}
+
+.table-ford,
+.table-ford>th,
+.table-ford>td {
+    background-color: #ff8a8a;
+}
+
+.table-hover .table-ford:hover {
+    background-color: #ff7171;
+}
+
+.table-hover .table-ford:hover>td,
+.table-hover .table-ford:hover>th {
+    background-color: #ff7171;
+}
+
+.text-ford {
+    color: #d20000 !important;
+}
+
+a.text-ford:hover,
+a.text-ford:focus {
+    color: #9f0000 !important;
 }

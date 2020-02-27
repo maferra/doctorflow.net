@@ -1,0 +1,18 @@
+{{ with .Params.authors }}
+
+<h2>{{ cond (ne (len .) 1) "Autores" "Autor" }}</h2>
+
+{{ range . }}
+{{ $author := . }}
+
+{{ range $taxonomyname, $taxonomy := $.Site.Taxonomies.authors }}
+
+{{ if eq $taxonomyname $author }}
+<p><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></p>
+<p>{{ .Page.Content }}</p>
+{{ end }}
+
+{{ end }}
+{{ end }}
+
+{{ end }}

@@ -1,58 +1,13 @@
 {{ define "main" }}
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-3">
-            <h2>
-                {{ if eq .Title "Tbls"}}
-                {{ upper .Title }}
-                {{ else }}
-                {{ title (humanize .Title) }}
-                {{ end }}
-            </h2>
-        </div>
-        <div class="col-md-9">
-            <div class="row row-cols-1 row-cols-md-2">
-                {{ if eq .Title "Tbls"}}
-                {{ range .Pages.ByWeight }}
-                <div class="col mb-3">
-                    <div class="card shadow h-100">
-                        <div class="card-body">
-                            {{ if (isset .Params "title") }}
-                            <h5 class="card-title">{{ .Title }}</h5>
-                            {{ end }}
-
-                            {{ if (isset .Params "description") }}
-                            <p class="card-text">{{ .Description }}</p>
-                            {{ end }}
-
-                            <a href="{{ .Permalink }}" class="btn btn-flow stretched-link">Saber mais</a>
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
-                {{ else }}
-                {{ range .Pages.ByTitle }}
-                <div class="col mb-3">
-                    <div class="card shadow h-100">
-                        <div class="card-body">
-                            {{ if (isset .Params "title") }}
-                            <h5 class="card-title">{{ .Title }}</h5>
-                            {{ end }}
-
-                            {{ if (isset .Params "description") }}
-                            <p class="card-text">{{ .Description }}</p>
-                            {{ end }}
-
-                            <a href="{{ .Permalink }}" class="btn btn-flow stretched-link">Saber mais</a>
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
-                {{ end }}
-            </div>
-        </div>
-    </div>
-</div>
+<ul class="list-unstyled">
+    {{ range .Pages.GroupBy "Weight" }}
+    {{ range .Pages.ByTitle }}
+    <li>
+        <span class="text-monospace">[{{ printf "%02d" .ReadingTime }} min.]</span> <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>
 
 {{ end }}

@@ -1,0 +1,9 @@
+{{ with .Params.references }}
+<h2>Referências</h2>
+
+<ol>
+    {{ range . }}
+    <li>{{ . }}</li>
+    {{ end }}
+</ol>
+{{ end }}

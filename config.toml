@@ -5,34 +5,20 @@ title = "Dr. Flow"
 theme = "flow"
 canonifyURLs = true
 
-pluralizelisttitles = false
+copyright = "Copyright (c) 2019, 2020 Ricardo Anselmo de Castro"
 
-verbose = true
-verboseLog = true
+[taxonomies]
+  author = "authors"
+  category = "categories"
+  tag = "tags"
 
-sectionPagesMenu = "main"
+[frontmatter]
+  date = [":fileModTime", ":default"]
+  lastmod = [":fileModTime", ":default"]
+  publishDate = [":fileModTime", ":default"]
 
-[menu]
-	[[menu.main]]
-		identifier = "tbls"
-		title      = "TBLS"
-		url        = "/tbls/"
-		weight     = 10
+[params]
+  title = "Dr. Flow"
 
-	[[menu.main]]
-		identifier = "value-flow"
-		title      = "Value Flow"
-		url        = "/value-flow/"
-		weight     = 20
-
-	[[menu.main]]
-		identifier = "crisis"
-		title      = "Crisis"
-		url        = "/crisis/"
-		weight     = 30
-
-	[[menu.main]]
-		identifier = "contacto"
-		title      = "Contacto"
-		url        = "/contacto/"
-		weight     = 40
+# [social]
+#   twitter = "racastro"

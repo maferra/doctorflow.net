@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+{{ range .Pages.ByTitle }}
+<div class="card rounded-0 mb-3">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <figure class="figure">
+                <img src="{{ index .Params.images 0 }}" class="figure-img img-fluid rounded" alt="{{ .Title }}">
+                <figcaption class="figure-caption">{{ .Title }}</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">{{ .Title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subtitle }}</h6>
+
+                {{ .Content }}
+
+                {{ range $index, $value := .Params.buy }}
+
+                {{ $class := "btn btn-ford mb-1"}}
+
+                {{ if eq $index 0 }}
+                {{ $class = (printf "%s %s" $class "stretched-link") }}
+                {{ end }}
+
+                <a class="{{ $class }}" href="{{ index . 2}}" role="button">{{ index . 0}} &bullet; {{ index . 1 }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
+
+{{ end }}

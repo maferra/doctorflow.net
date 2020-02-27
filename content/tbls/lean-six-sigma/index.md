@@ -1,8 +1,6 @@
 ---
 title: "Lean Six Sigma"
-description: "Variabilidade e desperdício."
-date: 2020-01-04T16:02:21Z
+description: Variabilidade e desperdício.
+draft: false
 weight: 40
-draft: true
 ---
-

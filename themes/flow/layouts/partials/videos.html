@@ -4,12 +4,18 @@
 
 {{ if eq $section $ptitle }}
 
-<div class="row row-cols-1 row-cols-md-2">
+{{ $ncols := div (len $value) 10 }}
+
+{{ $ncols := add $ncols 2 }}
+
+{{ $ncols := cond (le $ncols 6) $ncols 6 }}
+
+<div class="row row-cols-1 row-cols-md-{{ $ncols }}">
     {{ range sort $value "title" }}
-    <div class="col mb-4">
-        <div class="card shadow h-100">
+    <div class="col mb-3">
+        <div class="card rounded-0 h-100">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/{{ .id }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .id }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="card-body">
                 <h5 class="card-title">{{ .title }}</h5>
