@@ -128,6 +128,24 @@
         "publishedAt": 20200224,
         "title": "Lean Six Sigma, Improve - Case Studies",
         "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Improve de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
+    },
+    {
+        "id": "UxiuM3UbRIU",
+        "publishedAt": 20200228,
+        "title": "Lean Six Sigma - SMED",
+        "description": "Para que serve a ferramenta de SMED e como executá-la?"
+    },
+    {
+        "id": "9IaC6XhEG6w",
+        "publishedAt": 20200304,
+        "title": "Lean Six Sigma Control",
+        "description": "O que precisamos ter em consideração na fase Control, de um projeto de Lean Six Sigma?"
+    },
+    {
+        "id": "hpuTM-2nuMM",
+        "publishedAt": 20200308,
+        "title": "Lean Six Sigma, Control - Case Studies",
+        "description": "Dois exemplos de projetos reais, na indústria e nos serviços, de como executar a fase Control de um projeto de Lean Six Sigma, para se obterem resultados extraordinários."
     }],
     "Operations Flow": [
     {
