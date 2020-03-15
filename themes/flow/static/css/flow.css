@@ -23,6 +23,10 @@ a:hover {
     color: #d20000;
 }
 
+a.no-decorations:hover {
+    text-decoration: none;
+}
+
 .alert-ford {
     color: #570000;
     background-color: #ff9f9f;
