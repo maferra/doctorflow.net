@@ -284,5 +284,12 @@
         "publishedAt": 20191107,
         "title": "Xadrez",
         "description": "Qual o impacto de não se olhar SEMPRE para o todo?"
+    }],
+    "Workshop Theme": [
+    {
+        "id": "H5LvV6m4jsA",
+        "publishedAt": 20190704,
+        "title": "Workshop Theme 0",
+        "description": "A solução Workshop Theme é aquela a aplicar quando não existe uma solução pré-definida (chave-na-mão). Ela existe para ir ao encontro de necessidades muito específicas, não cobertas pelas soluções ValueFlow ou EasyMoney."
     }]
 }
