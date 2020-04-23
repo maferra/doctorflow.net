@@ -288,8 +288,14 @@
     "Workshop Theme": [
     {
         "id": "H5LvV6m4jsA",
-        "publishedAt": 20190704,
+        "publishedAt": 20200704,
         "title": "Workshop Theme 0",
+        "description": "A solução Workshop Theme é aquela a aplicar quando não existe uma solução pré-definida (chave-na-mão). Ela existe para ir ao encontro de necessidades muito específicas, não cobertas pelas soluções ValueFlow ou EasyMoney."
+    },
+    {
+        "id": "yYiU3Xn8clQ",
+        "publishedAt": 20200413,
+        "title": "Workshop Theme 1",
         "description": "A solução Workshop Theme é aquela a aplicar quando não existe uma solução pré-definida (chave-na-mão). Ela existe para ir ao encontro de necessidades muito específicas, não cobertas pelas soluções ValueFlow ou EasyMoney."
     }]
 }
