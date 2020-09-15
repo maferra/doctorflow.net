@@ -16,6 +16,7 @@ hugo new value-flow\project-flow\index.md
 
 hugo new crisis\_index.md
 hugo new crisis\easy-money\index.md
+hugo new crisis\people-first\index.md
 hugo new crisis\workshop-theme\index.md
 
 hugo new tbls\_index.md
